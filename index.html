@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q6GVDY046"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-1Q6GVDY046');
-</script>
- 
-  <title>Test Page</title>
+  <meta charset="UTF-8">
+  <title>Test1 — GA4 Tracking</title>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q6GVDY046"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1Q6GVDY046');
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello from GitHub Pages!</h1>
+  <h1>Тестовая страница GA4</h1>
+  <p>Эта страница используется для проверки аналитики Google Analytics 4.</p>
 </body>
 </html>
